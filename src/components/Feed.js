@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react'
-import {Box, Stack, Typography} from '@mui/material'
-import { Favorite } from '@mui/icons-material'
+import {Box, Stack} from '@mui/material'
+// import { Favorite } from '@mui/icons-material'
 import Sidebar from './Sidebar'
 import styled from 'styled-components'
 import Videos from './Videos'
