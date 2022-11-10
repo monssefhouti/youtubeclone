@@ -1,0 +1,17 @@
+
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCiZVSKdQid2ooKc5DqrcigDhSabYT7mKg",
+  authDomain: "fir-1df7d.firebaseapp.com",
+  projectId: "fir-1df7d",
+  storageBucket: "fir-1df7d.appspot.com",
+  messagingSenderId: "441217014924",
+  appId: "1:441217014924:web:5ef0b72f39e21533936fa9",
+  measurementId: "G-XBTBB9MLPX"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
